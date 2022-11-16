@@ -3,10 +3,94 @@ body {.
   height: 100%;
   margin: 0;
 }
-h1{color: red;
+h1{color: black;
+  margin: auto;
 }
 .center {
   text-align: center;
-  border: 3px solid green;
+  border: 3px ;
+}
+nav {
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  color:blue;
+  font size: 1.7em;
+  display: block;
+  float:center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #333;
 }
 
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:grey;
+  color: black;
+  margin: auto;
+}
+
+.topnav a.active {
+  background-color: grey;
+  color: white;
+  margin: auto;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+    background-color: grey;
+  }
+  
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+featured-property{
+  width: 800px;
+  font-size: 10px;
+  text-align: center;
+margin: auto;
+}
+#details > div{
+  float: left;
+  background-color: red;
+  text-align: center;
+  width: 25%;
+  margin: auto;
+  
+}
